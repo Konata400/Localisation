@@ -20,6 +20,7 @@ Updated in:
 - [ ] da-DK
 - [ ] de-DE
 - [ ] en-US
+- [ ] eo-OO
 - [ ] es-ES
 - [ ] fr-FR
 - [ ] hu-HU
@@ -28,6 +29,7 @@ Updated in:
 - [ ] ko-KR
 - [ ] nb-NO
 - [ ] nl-NL
+- [ ] pl-PL
 - [ ] pt-BR
 - [ ] sv-SE
 - [ ] tr-TR
@@ -35,4 +37,4 @@ Updated in:
 - [ ] zh-TW
 
 Notification when new strings arrive:
-@Omaranwa @J0anJosep @octaroot @LPSGizmo @danidoedel @Wuzzy2 @Wirlie @JoelTroch @anon569 @LucaRed @AaronVanGeffen @telk5093 @Goddesen @Gymnasiast @renansimoes @Tupaschoal @Nubbie @BobbyS38 @izhangfei @daihakken
+@Omaranwa @J0anJosep @octaroot @LPSGizmo @danidoedel @Wuzzy2 @tellovishous @rzhao271 @Wirlie @JoelTroch @anon569 @LucaRed @AaronVanGeffen @telk5093 @Goddesen @Gymnasiast @renansimoes @Tupaschoal @izhangfei @daihakken @marcinkunert

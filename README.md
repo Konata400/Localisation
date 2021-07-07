@@ -31,15 +31,15 @@ In each commit you create regarding a language file change, start the commit des
 
 As this project always are moving forward, new strings get added from time to time which means they need to be added to the language files and be translated. All the new strings that are being added can be found in ['issues'](https://github.com/OpenRCT2/Localisation/issues) on the localisation webpage here on GitHub. To be a maintainer means that you have to add the new strings found on the issues page into the language you're translating in numerical order.
 
-If you want to become a maintainer, tell us what language you will be maintaining on [Discord](https://discord.gg/sxnrvX9). 
+If you want to become a maintainer, tell us what language you will be maintaining on [Discord](https://discord.gg/sxnrvX9).
 
 ### Checking & testing strings in-game
 You can always test the translated strings in-game before publishing a pull request. This can be especially handy to see if the strings fits the window.<br/>
 To do this, go to the directory where OpenRCT2 resides (not to be confused with the directory where it saves your parks and config!), then go to `data/language` and replace the existing file with your updated version.
 
 ### Language Status
-| Newest strings can be found in [issues](https://github.com/OpenRCT2/Localisation/issues) | 
-| -----------------------------------------------------------------------------------------| 
+| Newest strings can be found in [issues](https://github.com/OpenRCT2/Localisation/issues) |
+| -----------------------------------------------------------------------------------------|
 
 | Language | Maintainer |
 | -------- | ---------- |
@@ -49,6 +49,7 @@ To do this, go to the directory where OpenRCT2 resides (not to be confused with 
 | [![](https://img.shields.io/badge/da--DK-maintained-green.svg)](https://github.com/OpenRCT2/Localisation/blob/master/data/language/da-DK.txt) | [LPSGizmo](https://github.com/LPSGizmo)          |
 | [![](https://img.shields.io/badge/de--DE-maintained-green.svg)](https://github.com/OpenRCT2/Localisation/blob/master/data/language/de-DE.txt) | [danidoedel](https://github.com/danidoedel), [Wuzzy2](https://github.com/Wuzzy2)        |
 | [![](https://img.shields.io/badge/en--GB-maintained-green.svg)](https://github.com/OpenRCT2/OpenRCT2/blob/develop/data/language/en-GB.txt   ) | -Anyone-                                           |
+| [![](https://img.shields.io/badge/eo--OO-maintained-green.svg)](https://github.com/OpenRCT2/Localisation/blob/master/data/language/eo-OO.txt) | [tellovishous](https://github.com/tellovishous), [rzhao271](https://github.com/rzhao271) |
 | [![](https://img.shields.io/badge/es--ES-maintained-green.svg)](https://github.com/OpenRCT2/Localisation/blob/master/data/language/es-ES.txt) | [Wirlie](https://github.com/Wirlie)                |
 | [![](https://img.shields.io/badge/fr--FR-maintained-green.svg)](https://github.com/OpenRCT2/Localisation/blob/master/data/language/fr-FR.txt) | [JoelTroch](https://github.com/JoelTroch)          |
 | [![](https://img.shields.io/badge/hu--HU-maintained-green.svg)](https://github.com/OpenRCT2/Localisation/blob/master/data/language/hu-HU.txt) | [anon569](https://github.com/anon569)              |
@@ -57,23 +58,41 @@ To do this, go to the directory where OpenRCT2 resides (not to be confused with 
 | [![](https://img.shields.io/badge/ko--KR-maintained-green.svg)](https://github.com/OpenRCT2/Localisation/blob/master/data/language/ko-KR.txt) | [telk5093](https://github.com/telk5093)            |
 | [![](https://img.shields.io/badge/nb--NO-maintained-green.svg)](https://github.com/OpenRCT2/Localisation/blob/master/data/language/nb-NO.txt) | [Goddesen](https://github.com/Goddesen)            |
 | [![](https://img.shields.io/badge/nl--NL-maintained-green.svg)](https://github.com/OpenRCT2/Localisation/blob/master/data/language/nl-NL.txt) | [Gymnasiast](https://github.com/Gymnasiast )      |
+| [![](https://img.shields.io/badge/pl--PL-maintained-green.svg)](https://github.com/OpenRCT2/Localisation/blob/master/data/language/pl-PL.txt)  | [marcinkunert](https://github.com/marcinkunert) |
 | [![](https://img.shields.io/badge/pt--BR-maintained-green.svg)](https://github.com/OpenRCT2/Localisation/blob/master/data/language/pt-BR.txt) | [renansimoes](https://github.com/renansimoes), [Tupaschoal](https://github.com/Tupaschoal)      |
-| [![](https://img.shields.io/badge/sv--SE-maintained-green.svg)](https://github.com/OpenRCT2/Localisation/blob/master/data/language/sv-SE.txt) | [Nubbie](https://github.com/Nubbie)                |
-| [![](https://img.shields.io/badge/tr--TR-maintained-green.svg)](https://github.com/OpenRCT2/Localisation/blob/master/data/language/tr-TR.txt) | [BobbyS38](https://github.com/BobbyS38)                |
+| [![](https://img.shields.io/badge/sv--SE-maintained-green.svg)](https://github.com/OpenRCT2/Localisation/blob/master/data/language/sv-SE.txt) | [galfisk](https://github.com/galfisk)                |
 | [![](https://img.shields.io/badge/zh--CN-maintained-green.svg)](https://github.com/OpenRCT2/Localisation/blob/master/data/language/zh-CN.txt) | [izhangfei](https://github.com/izhangfei)          |
 | [![](https://img.shields.io/badge/zh--TW-maintained-green.svg)](https://github.com/OpenRCT2/Localisation/blob/master/data/language/zh-TW.txt) | [daihakken](https://github.com/daihakken)         |
 | Not maintained <!-- Languages that are outdated with strings missing from OpenRCT2/vanilla-->| |                                                 
 | [![](https://img.shields.io/badge/fi--FI-outdated-yellow.svg)](https://github.com/OpenRCT2/Localisation/blob/master/data/language/fi-FI.txt)  |                                                    |
-| [![](https://img.shields.io/badge/pl--PL-outdated-yellow.svg)](https://github.com/OpenRCT2/Localisation/blob/master/data/language/pl-PL.txt)  |                                                    |
+| [![](https://img.shields.io/badge/tr--TR-outdated-yellow.svg)](https://github.com/OpenRCT2/Localisation/blob/master/data/language/tr-TR.txt)  |                                                    |
 | [![](https://img.shields.io/badge/ru--RU-outdated-red.svg)](https://github.com/OpenRCT2/Localisation/blob/master/data/language/ru-RU.txt)     |                                                    |
 
 | en-US only contains strings that differ from en-GB <!--en-US doesn't get updated more than it's needed-->           
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | 
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [![](https://img.shields.io/badge/en--US-maintained-green.svg)](https://github.com/OpenRCT2/Localisation/blob/master/data/language/en-US.txt) |         -Anyone-         |
 
 Note:  The status bars can be inaccurate & some maintainers can be more inactive than others.<br/>
-Anyone can still contribute to the languages. 
+Anyone can still contribute to the languages.
 
 ### Questions & Support
 
 If you have any question or issues, you can always ask us on [Discord](https://discord.gg/sxnrvX9).
+
+### Checking Translation Integrity
+
+We have an action that automatically runs on every Pull Request and reports, for every supported language:
+
+- If there are any strings left to translate
+- If there are any strings that do not need translation
+- If there are any strings that might not have been translated, as they are the same
+
+The script is on the repository and can be run locally if one wants to anticipate the results, by doing:
+
+```
+python .github\workflows\translation_check.py -r <path to en-GB.txt> -m <path to data/language folder on master branch> -b <path to data/language folder on your branch>
+```
+
+Note that `-b` and `-m` can use the same argument if you don't want differential analysis.
+
+You can use the `--help` switch to read more about what each switch does.
